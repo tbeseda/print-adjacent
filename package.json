@@ -1,0 +1,46 @@
+{
+  "name": "print-adjacent",
+  "version": "0.0.0",
+  "description": "Create a string to display two strings side by side. Helpful for printing diffs in a console.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint.fix": "npm run lint -- --fix",
+    "release": "release-it",
+    "test": "npm run lint && node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbeseda/print-adjacent.git"
+  },
+  "keywords": [
+    "pretty",
+    "print",
+    "terminal",
+    "console",
+    "strings"
+  ],
+  "author": "tbeseda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbeseda/print-adjacent/issues"
+  },
+  "homepage": "https://github.com/tbeseda/print-adjacent#readme",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-standard": "^17.1.0",
+    "release-it": "^17.0.1"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "ignorePatterns": [],
+    "rules": {
+      "space-unary-ops": 0,
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ]
+    }
+  }
+}
