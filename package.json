@@ -10,6 +10,9 @@
     "release": "npm t && release-it",
     "test": "npm run lint && node --test"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tbeseda/print-adjacent.git"
